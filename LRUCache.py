@@ -1,6 +1,11 @@
 import numpy as np
 
-'''Least Recently Used (https://leetcode.com/problems/lru-cache/description/)'''
+'''
+Least Recently Used (https://leetcode.com/problems/lru-cache/description/)
+Main methods are 'get' and 'put'
+Additional methods are InsertNode and TakeOutNode.
+- This is implemented via doubly linked list for O(1) accesses, insertions and deletions
+'''
 
 class Node(object):
     """a Node in doubly linked list"""
