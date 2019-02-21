@@ -54,7 +54,7 @@ if __name__ == "__main__":
     for word in dictionary:
         trie.insert(word)
     # validation
-    val_words = ['word', 'spi', 'america', 'great', 'fake']
+    val_words = ['word', 'spi', 'america', 'great', 'fake', 'ords']
     for word in val_words:
         print '\'{}\' whole word exists in Trie? \n\t{}'.format(word, trie.exists(word))
         print '\'{}\' prefix exists in Trie? \n\t{}'.format(word, trie.prefixExists(word))
